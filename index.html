@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Titre de la page</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Votre identité</legend>
+            <ol>
+                <li>
+                    <label for="name">Nom : </label>
+                    <input type="text" id="name" name="name" placeholder="Nom">   
+                </li> 
+                <li>
+                    <label for="firstname">Prénom : </label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Prénom"> 
+                </li>               
+                <li>
+                    <label for="mail">Adresse mail : </label>
+                    <input type="mail" id="mail" name="mail" placeholder="Adresse mail">
+                </li>                
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="address">Adresse : </label>
+                    <textarea id="address" name="address"></textarea> 
+                </li> 
+                <li>
+                    <label for="postalCode">Code postal : </label>
+                    <input type="text" id="postalCode" name="postalCode" placeholder="Code postal"> 
+                </li>               
+                <li>
+                    <label for="mail">Ville : </label>
+                    <input type="mail" id="mail" name="mail" placeholder="Ville">
+                </li>                
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>Informations de règlement</legend>
+            <ol>
+                <li>
+                    Type de carte bancaire : 
+                    <ul>
+                        <li>
+                            <input type="radio" name="debitCard" id="visa">
+                            <label for="visa">VISA</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="debitCard" id="mastercard">
+                            <label for="mastercard">Mastercard</label>
+                        </li>
+                    </ul>    
+                </li>
+                <li>
+                    <label for="cardNum">Numéro de carte : </label>
+                    <input type="text" id="cardNum" name="cardNum" placeholder="Numéro de carte">
+                </li> 
+                <li>
+                    <label for="securityCode">Code de sécurité : </label>
+                    <input type="text" id="securityCode" name="securityCode" placeholder="Code de sécurité"> 
+                </li>               
+                <li>
+                    <label for="holderName">Nom du titulaire : </label>
+                    <input type="text" id="holderName" name="holderName" placeholder="Nom du titulaire">
+                </li>                
+            </ol>
+        </fieldset>
+    </form>
+</body>
+</html>
